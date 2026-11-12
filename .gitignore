@@ -1,0 +1,9 @@
+﻿node_modules/
+.wrangler/
+.dev.vars
+.env*
+# Dữ liệu thật (SĐT, ngân hàng, doanh thu) - không đưa lên repo
+backups/
+*.xlsx
+seed*.sql
+.claude/settings.local.json

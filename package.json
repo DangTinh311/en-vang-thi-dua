@@ -1,0 +1,21 @@
+{
+  "name": "en-vang-thi-dua",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:schema": "wrangler d1 execute en-vang-thi-dua --remote --file=schema.sql",
+    "db:seed": "wrangler d1 execute en-vang-thi-dua --remote --file=seed.sql",
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 execute en-vang-thi-dua --remote --file=migrate-v2.sql",
+    "db:seed-drivers": "wrangler d1 execute en-vang-thi-dua --remote --file=seed-tai-xe-cu.sql",
+    "db:migrate3": "wrangler d1 execute en-vang-thi-dua --remote --file=migrate-v3.sql",
+    "db:seed-giay-to": "wrangler d1 execute en-vang-thi-dua --remote --file=seed-giay-to.sql",
+    "db:migrate4": "wrangler d1 execute en-vang-thi-dua --remote --file=migrate-v4.sql",
+    "db:migrate5": "wrangler d1 execute en-vang-thi-dua --remote --file=migrate-v5.sql",
+    "db:migrate6": "wrangler d1 execute en-vang-thi-dua --remote --file=migrate-v6.sql",
+    "db:migrate7": "wrangler d1 execute en-vang-thi-dua --remote --file=migrate-v7.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
